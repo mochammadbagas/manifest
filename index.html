@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- TailwindCSS -->
+    <link rel="stylesheet" href="/dist/css/output.css">
+    <!-- Title -->
+    <title>Home</title>
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#" class="font-lato font-bold text-base tracking-widest text-grey-900 block py-6">
+                        MANIFEST
+                    </a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out  origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="nav-menu"
+                        class="hidden absolute py-5 bg-white shadow-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#"
+                                    class="font-lato font-normal text-[13px] tracking-widest uppercase text-grey-900 py-2 mx-8 flex">HOME</a>
+                            </li>
+                            <li class="group">
+                                <a href="#"
+                                    class="font-lato font-normal text-[13px] tracking-widest uppercase text-grey-900 py-2 mx-8 flex">ABOUT</a>
+                            </li>
+                            <li class="group">
+                                <a href="#"
+                                    class="font-lato font-normal text-[13px] tracking-widest uppercase text-grey-900 py-2 mx-8 flex">WORKS</a>
+                            </li>
+                            <li class="group">
+                                <a href="#"
+                                    class="font-lato font-normal text-[13px] tracking-widest uppercase text-grey-900 py-2 mx-8 flex">BLOG</a>
+                            </li>
+                            <li class="group">
+                                <a href="#"
+                                    class="font-lato font-normal text-[13px] tracking-widest uppercase text-grey-900 py-2 mx-8 flex">CONTACT</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!-- Navbar End -->
+
+
+
+    <script src="dist/js/script.js"></script>
+</body>
+
+</html>
